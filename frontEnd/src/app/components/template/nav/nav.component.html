@@ -3,11 +3,15 @@
         opened fixedInViewport="true" fixedTopGap="64">
         <mat-nav-list class="nav-list">
             <a mat-list-item>
-                <i class="material-icons">home</i> Início
+                <i class="material-icons">dashboard</i> Início
             </a>
             <a mat-list-item>
                 <i class="material-icons">storefront</i> Produtos
             </a>
         </mat-nav-list>
     </mat-sidenav>
+
+    <mat-sidenav-content class="content">
+        <app-home></app-home>
+    </mat-sidenav-content>
 </mat-sidenav-container>
