@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { HttpClient } from '@angular/common/http';
-import { Product } from './product.model';
+import { Product } from '../models/product.model';
 import { Observable } from 'rxjs';
 
 @Injectable({
@@ -18,7 +18,7 @@ export class ProductService {
 
   showMessage(msg: string): void{
     this.snackBar.open(msg, 'X', {
-      duration: 3000,
+      duration: 3000, 
       horizontalPosition: 'right',
       verticalPosition: 'top'
     })
@@ -27,4 +27,9 @@ export class ProductService {
   create(product: Product): Observable<Product>{
     return this.http.post<Product>(this.baseUrl, product)
   }
+
+  read(): Observable<Product[]>{
+    return this.http.get<Product[]>(this.baseUrl)
+  }
 }
+
