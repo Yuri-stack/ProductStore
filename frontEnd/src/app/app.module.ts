@@ -22,6 +22,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { HomeComponent } from './components/home/home.component';
 import { ProductCrudComponent } from './components/product-crud/product-crud.component';
 import { ProductCreateComponent } from './components/product-create/product-create.component';
+import { ProductReadComponent } from './components/product-read/product-read.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { ProductCreateComponent } from './components/product-create/product-crea
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
-    ProductCreateComponent
+    ProductCreateComponent,
+    ProductReadComponent
   ],
   imports: [
     BrowserModule,
