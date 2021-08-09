@@ -1,7 +1,7 @@
 <h1 align="center"><br>
     <img  src="https://angular.io/assets/images/logos/angular/angular.svg"  alt="Logo"  width="240">
     <br><br>
-        ProductStore Aplication
+        Product Store Aplication
 </h1>
 
 <div>
@@ -20,7 +20,6 @@
         </a>
     </p>
 </div>
-
 
 ## Table of Contents
 
@@ -46,60 +45,70 @@ The purpose of the Product Store is to create a Registration Application (CRUD) 
 
 ## Features
 
-- 💻 Book Registration Manager📚
-
-
+- Creation, Editing and Deletion of Products
 ## Revised Concepts
 
-- 🌱 Initial project setup with Spring Boot Initialzr.
-
-- 💽 Creation of data model for mapping entities into databases.
-
-- 📚 Development of book management operations (Register, reading by ID, reading all books)
+- Creation of Components, Services and Models
+- Understanding the concepts: *Injections*, *Data Binding* *Observable*, *Directives*, *Pipes*
+- Working with **Material Design**
 
 ## Installation
 
 **You must have already installed**
 
-- <a  href="https://www.eclipse.org/"> Eclipse </a>
-- <a  href="https://www.postman.com/downloads/"> Postman</a>
+- [Node.js](https://nodejs.org/en/)
+- [Npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+- [Angular](https://angular.io/guide/setup-local)
+
+**Recommendations**
+-   It is recommended that you have installed Google Chrome or Edge
+-   I recommend using VSCode as development IDE
 
 *You can use other IDE or other requisition tool*
 
-**Let's divide it into 2 steps.**
-
+**Let's divide it into 3 steps.**
 1. Clone this repository
 2. Install dependencies
+3. Initializing the BackEnd
   ---
-#### 1. Clone this repository
+### 1. Clone this repository
 ```
-$ git clone https://github.com/Yuri-stack/BookStore
+git clone https://github.com/Yuri-stack/ProductStore.git
 ```
 ---
 ### 2. Install the dependencies
-
-Have Maven installed on your machine to manage dependencies
+```
+npm install
+```
+or
+```
+yarn
+```
 
 *Make sure your internet is stable, as this may take a while* 
 
-## Getting Started
+### 3. Initializing the BackEnd
 
-1. Run the code below in your project's main directory.
+Navegue até a pasta **backEnd** e run this code:
 ```
-mvn spring-boot:run
+npm start
 ```
-2. Now, open your browser and navigate to: http://localhost:8080/api/v1/books
 
-## Technologies
+## 🎮Getting Started
 
-- [Java](https://pt.wikipedia.org/wiki/Java_(linguagem_de_programa%C3%A7%C3%A3o))
+1. Run the project
+```
+ng serve
+```
+2. Now, open your browser and navigate to: http://localhost:4200
 
-- [Spring Boot](https://spring.io/projects/spring-boot)
+## 🌐Technologies
 
-## License
+- [AngularJS](https://angular.io/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## 📝License
 
 Released in 2021.
-
-This project is under the [MIT license](https://github.com/Yuri-stack/BookStore/blob/main/LICENSE).
-
+This project is under the [MIT license](https://github.com/Yuri-stack/ProductStore/blob/main/LICENSE).
 Made with love by [Yuri Oliveira](https://github.com/Yuri-stack) 🚀.
